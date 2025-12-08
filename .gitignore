@@ -1,0 +1,57 @@
+node_modules
+.env
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# FastAPI / Backend cache
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.DS_Store
+
+# Logs
+logs/
+*.log
+*.txt
+*.db
+
+# Environment variables
+.env
+.env.*
+
+# Token / API keys
+backend/config/secrets.json
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# React frontend
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Frontend build output
+frontend/build/
+frontend/dist/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual machines / Docker
+*.pid
+docker-data/

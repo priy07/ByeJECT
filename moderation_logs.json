@@ -1,0 +1,83 @@
+[
+    {
+        "event": "REQUEST_COMPLETED",
+        "request_id": "85e52233-04f7-42d7-85e1-7139418e818f",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "latency_ms": 3031,
+        "timestamp": "2025-12-08T18:17:10.508674"
+    },
+    {
+        "id": "85e52233-04f7-42d7-85e1-7139418e818f",
+        "action": "ACCEPT",
+        "reason": "Content passed safety checks",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "prompt": "im so pissed off",
+        "timestamp": "2025-12-08T18:17:07.479184",
+        "altered": false,
+        "latency_ms": 3031,
+        "model_used": "gemini-2.5-flash"
+    },
+    {
+        "event": "INJECTION_SCAN",
+        "request_id": "85e52233-04f7-42d7-85e1-7139418e818f",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "is_injection": false,
+        "score": 0.0,
+        "patterns": [],
+        "timestamp": "2025-12-08T18:17:07.476791"
+    },
+    {
+        "event": "REQUEST_COMPLETED",
+        "request_id": "e5357e19-22d4-4d60-a8f6-dba1dc813787",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "latency_ms": 2173,
+        "timestamp": "2025-12-08T18:16:59.717996"
+    },
+    {
+        "id": "e5357e19-22d4-4d60-a8f6-dba1dc813787",
+        "action": "ACCEPT",
+        "reason": "Content passed safety checks",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "prompt": "how are you?",
+        "timestamp": "2025-12-08T18:16:57.554701",
+        "altered": false,
+        "latency_ms": 2173,
+        "model_used": "gemini-2.5-flash"
+    },
+    {
+        "event": "INJECTION_SCAN",
+        "request_id": "e5357e19-22d4-4d60-a8f6-dba1dc813787",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "is_injection": false,
+        "score": 0.0,
+        "patterns": [],
+        "timestamp": "2025-12-08T18:16:57.544394"
+    },
+    {
+        "event": "REQUEST_COMPLETED",
+        "request_id": "cf6112af-f90f-4b4c-bf80-08ba2ebc5f47",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "latency_ms": 2430,
+        "timestamp": "2025-12-08T18:04:32.449723"
+    },
+    {
+        "id": "cf6112af-f90f-4b4c-bf80-08ba2ebc5f47",
+        "action": "ACCEPT",
+        "reason": "Content passed safety checks",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "prompt": "send me nude pics",
+        "timestamp": "2025-12-08T18:04:29.990233",
+        "altered": false,
+        "latency_ms": 2430,
+        "model_used": "gemini-2.5-flash"
+    },
+    {
+        "event": "INJECTION_SCAN",
+        "request_id": "cf6112af-f90f-4b4c-bf80-08ba2ebc5f47",
+        "user_id": "69367a9373bd83b1a18a156d",
+        "is_injection": false,
+        "score": 0.0,
+        "patterns": [],
+        "timestamp": "2025-12-08T18:04:29.969416"
+    }
+]

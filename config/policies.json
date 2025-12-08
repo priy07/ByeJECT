@@ -1,0 +1,50 @@
+{
+  "categories": {
+    "violence": {
+      "keywords": ["kill", "murder", "attack", "weapon", "bomb"],
+      "severity": 0.8,
+      "action": "reject",
+      "message": "Violence-related content is not allowed."
+    },
+    "self_harm": {
+      "keywords": ["suicide", "hurt myself", "die", "kill myself"],
+      "severity": 1.0,
+      "action": "reject",
+      "message": "Self-harm content is strictly prohibited."
+    },
+    "hate_speech": {
+      "keywords": ["racist", "slur", "hate", "bigot"],
+      "severity": 0.7,
+      "action": "alter",
+      "message": "Hate speech detected. Content sanitized."
+    },
+    "sexual_content": {
+      "keywords": ["sex", "porn", "nude", "adult"],
+      "severity": 0.6,
+      "action": "warning",
+      "message": "Adult content is inappropriate. Proceed with caution."
+    },
+    "pii": {
+      "patterns": [
+        "[0-9]{10}",
+        "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+      ],
+      "severity": 0.5,
+      "action": "alter",
+      "message": "Personally identifiable information removed."
+    },
+    "jailbreak": {
+      "keywords": ["ignore previous", "system prompt", "bypass", "jailbreak"],
+      "severity": 0.9,
+      "action": "reject",
+      "message": "Jailbreak attempt blocked."
+    }
+  },
+
+  "severity_thresholds": {
+    "accept": 0.2,
+    "warning": 0.4,
+    "alter": 0.6,
+    "reject": 0.8
+  }
+}
