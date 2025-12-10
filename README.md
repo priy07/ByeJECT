@@ -66,22 +66,6 @@ graph LR
     LLM --> PythonProxy
     PythonProxy --> NodeServer
 ````
-
-**Text-based representation:**
-
-```text
-┌────────┐     ┌─────────────┐     ┌───────────────┐     ┌──────────┐
-│  User  │ --> │   Frontend  │ --> │  Node Server  │ --> │  Python  │
-└────────┘     └─────────────┘     └───────────────┘     │  Proxy   │
-                                                          └────┬─────┘
-                                                               │
-                                                            Moderation
-                                                               │
-                                                          ┌────┴─────┐
-                                                          │   LLM    │
-                                                          └──────────┘
-```
-
 -----
 
 ## 📁 Project Structure
@@ -90,8 +74,7 @@ graph LR
 ByeJect/
 │── proxy_server.py          # Moderation proxy (Python)
 │── requirements.txt         # Python dependencies
-│── START_ALL.bat            # Auto-run script (Windows)
-│── start_all.sh             # Auto-run script (Linux/Mac)
+│── ByeJect.pptx             #Presentation
 │
 ├── client/                  # React frontend
 ├── server/                  # Node dashboard backend
