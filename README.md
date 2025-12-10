@@ -131,26 +131,6 @@ npm run dev
 
 -----
 
-## 🚀 One-Click Auto Start
-
-Instead of opening terminals manually, use the included scripts.
-
-### 🪟 Windows (`START_ALL.bat`)
-
-Double-click the file or run:
-
-```bat
-START_ALL.bat
-```
-
-### 🐧 Linux/Mac (`start_all.sh`)
-
-```bash
-bash start_all.sh
-```
-
------
-
 ## 🔗 API Usage
 
 You can interact with the proxy directly via API.
