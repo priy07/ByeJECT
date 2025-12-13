@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-proxy_server.py — Clean, audited rewrite for ByeJect project.
-
-Key behavior changes / guarantees:
-- All moderation outcomes (accept/warning/alter/reject/block) return JSON responses (200)
-  so the frontend/dashboard receives structured data for every request.
-- Errors that truly are server faults still raise HTTPException (502/504).
-- All audit-worthy events are saved to moderation_logs.json and moderation_text_logs.txt
-  (newest-first) and include consistent keys expected by the Dashboard.
-- Actions normalized to lowercase for UI compatibility.
-"""
-
 import os
 import re
 import uuid
